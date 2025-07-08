@@ -8,7 +8,6 @@ on:
     paths:
       - components/profile-controller/**
       - releasing/version/VERSION
-
 env:
   IMG: ghcr.io/kubeflow/kubeflow/profile-controller
   ARCH: linux/amd64,linux/ppc64le,linux/arm64/v8
